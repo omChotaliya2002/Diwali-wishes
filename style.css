@@ -84,27 +84,27 @@ audio::-webkit-media-controls-panel {
     color: white;
 }
 
-@media (max-width : 1690px) {
+/* @media (max-width : 1690px) {
 
     .hero-section {
 
         min-height: 90vh;
-        /* background-size: ; */
     }
-}
-@media (max-width : 1480px) {
+} */
+
+/* @media (max-width : 1480px) {
 
     .hero-section {
 
         min-height: 80vh;
-        /* background-size: ; */
     }
-}
+} */
+
 @media (max-width : 1310px) {
 
     .hero-section {
 
-        min-height: 75vh;
+        /* min-height: 75vh; */
         background-size: cover;
     }
 
@@ -127,15 +127,12 @@ audio::-webkit-media-controls-panel {
 
 @media (max-width : 1148px) {
 
-    .hero-section {
+    /* .hero-section {
 
         min-height: 70vh;
-        /* background-size: ; */
-    }
+    } */
 
     .wish-container {
-
-        /* border: 1px solid white; */
         display: flex;
         flex-direction: column;
         transform: translate(0px,60px);
@@ -153,7 +150,7 @@ audio::-webkit-media-controls-panel {
 
     .hero-section {
 
-        min-height: 65vh;
+        /* min-height: 65vh; */
         background-size: cover;
     }
     .wish-container p{
@@ -216,35 +213,35 @@ audio::-webkit-media-controls-panel {
             }
         }
 
-        @media (max-width : 645px) {
+@media (max-width : 645px) {
 
-            .hero-section{
+        .hero-section{
 
-                /* background-size: 650px; */
+            /* background-size: 650px; */
 
-                .wish1{
-                    transform: translate(0px, -50px);
-                }
+            .wish1{
+                transform: translate(0px, -50px);
+            }
 
-                .wish2{
-                    transform: translate(0px, -55px);
-                }
+            .wish2{
+                transform: translate(0px, -55px);
+            }
 
-                .audio-container{
+            .audio-container{
 
-                    transform: translate(0px, -45px);;
-                }
-                
-                .audio{
-                    transform: translate(-15px);
-                }
+                transform: translate(0px, -45px);;
+            }
+            
+            .audio{
+                transform: translate(-15px);
+            }
 
-                .dipak{
+            .dipak{
 
-                    min-height: 70px;
-                    max-width: 70px;
-                }
+                min-height: 70px;
+                max-width: 70px;
             }
         }
+    }
 
 }
