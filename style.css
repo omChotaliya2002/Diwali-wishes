@@ -10,6 +10,10 @@ body {
     font-display: swap;
 }
 
+/* section {
+  padding: clamp(1rem, 4vw, 4rem);
+} */
+
 .hero-section {
 
     min-height: 100vh;
@@ -175,7 +179,7 @@ audio::-webkit-media-controls-panel {
 
 }
 
-@media (max-width : 645px) {
+/* @media (max-width : 645px) {
 
         .hero-section {
 
@@ -199,10 +203,8 @@ audio::-webkit-media-controls-panel {
 
                 min-height: 25px;
                 max-width: 175px;
-                /* border: 2px solid white; */
             }
             .audio{
-                /* border: 1px solid white; */
                 min-height: 10px;
             }
 
@@ -211,7 +213,7 @@ audio::-webkit-media-controls-panel {
                 max-width: 10px;
                 min-height: 12px;
             }
-        }
+        } */
 
 @media (max-width : 645px) {
 
@@ -238,8 +240,8 @@ audio::-webkit-media-controls-panel {
 
             .dipak{
 
-                min-height: 70px;
-                max-width: 70px;
+                min-height: 150px;
+                max-width: 150px;
             }
         }
     }
