@@ -222,16 +222,16 @@ audio::-webkit-media-controls-panel {
             /* background-size: 650px; */
 
             .wish1{
-                transform: translate(0px, -50px);
+                transform: translate(0px, -80px);
             }
 
             .wish2{
-                transform: translate(0px, -55px);
+                transform: translate(0px, -105px);
             }
 
             .audio-container{
 
-                transform: translate(0px, -45px);;
+                transform: translate(0px, -95px);;
             }
             
             .audio{
