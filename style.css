@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     max-width: 100%;
     background-color: #B72720;
-    background-image: url("/photos/bg2.png");
+    background-image: url("/photos/bg2.webp");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
