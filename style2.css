@@ -139,6 +139,15 @@ body {
     width: fit-content;
 }
 
+.my-name {
+
+    color: white;
+    text-align: end;
+    margin-right: 15px;
+    font-family: Salsa;
+    font-size: 14px;
+}
+
 @media (max-width : 840px) {
 
     .card{
@@ -180,8 +189,10 @@ body {
     .end-wish{
         font-size: 18px;
         margin-top: 40px;
+        margin-left: 70px;
     }
     .end-wish2{
-        font-size: 35px;
+        font-size: 33px;
+        margin-left: 70px;
     }
 }

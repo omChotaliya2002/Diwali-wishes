@@ -13,6 +13,9 @@
     <title> Happy diwali!! </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
+    <link rel="preload" as="image" href="/photos/bg2.png">
+    <link rel="preload" as="image" href="/photos/dipak.png">
+    <link rel="preload" as="image" href="/photos/dipak2.png">
 
 </head>
 <body>
@@ -27,7 +30,7 @@
             <div class="wish-container">
                  
                 <p class="wish">
-                    Namaste, <br>
+                    Namaste <span id="receiver"> </span>, <br>
                     You mean the world to me... So this Diwali,
                     I made something for you! </p>
                 
@@ -51,7 +54,7 @@
                 <div class="horizontal-line"></div>
             </div>
             
-            <img class="dev-devi1" src="photos/dev-devi.jpg" alt="lakshmi-ganesha"/>
+            <img class="dev-devi1" src="photos/dev-devi.jpg" alt="lakshmi-ganesha" loading="lazy"/>
 
             <h2 class="wish2"> Wishing You a Blessed and Properous Deepawali </h2>
             
@@ -76,7 +79,7 @@
                         with joy!!
                     </p>    
                 </div>
-                <img class="diya-girl" src="photos/diya-girl.png" alt="girl with diya"/> 
+                <img class="diya-girl" src="photos/diya-girl.png" alt="girl with diya" loading="lazy"/> 
             </div>
 
             <div class="horizontal-divider"> 
@@ -88,13 +91,21 @@
             </div>
 
             <div class="dev-devi2-container">
-                <img class="dev-devi2" src="/photos/dev-devi2.jpg" alt="lakshmi-ganesha"/>
+                <img class="dev-devi2" src="/photos/dev-devi2.jpg" alt="lakshmi-ganesha" loading="lazy"/>
             </div>
             
             <p class="end-wish"> Happy Deepawali and, </p> <br>
             <h2 class="end-wish2"> Thank you for everything..! </h2>
 
+            <p class="my-name"> Made with 💜 By <span id="sender"> </span> </p>
         </section>
+
+        <script>
+            const receiverName = document.querySelector("#receiver");
+            const senderName = document.querySelector("#sender");
+            receiverName.innerText = new URLSearchParams(location.search).get("receiver");
+            senderName.innerText = new URLSearchParams(location.search).get("sender");
+        </script>
     
 </body>
 </html>
