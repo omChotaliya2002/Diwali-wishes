@@ -87,7 +87,8 @@ audio::-webkit-media-controls-panel {
     }
 
     .wish-container p{
-        font-size: 30px;
+
+        font-size: 35px;
         text-align: center;
     }
 
@@ -124,35 +125,54 @@ audio::-webkit-media-controls-panel {
     }
 
     .wish-container p{
-        font-size: 22px;
+        font-size: 32px;
         text-align: center;
-        max-width : 400px
+        max-width : 450px;
     }
 
     .audio-container {
-        max-width: 70%;
+        max-width: 75%;
     }
 }
 
 @media (max-width : 780px) {
 
+    .wish-container p{
+        font-size: 28px;
+        text-align: center;
+        max-width : 450px;
+        transform: translate(0px, -140px);
+    }
+
+    .audio-container {
+
+        transform: translate(0px, -140px);
+    }
+
     .dipak{
-        min-height: 200px;
-        max-width: 200px;
+        min-height: 150px;
+        max-width: 150px;
     }
 }
 
 @media (max-width : 645px) {
 
+    .wish-container p{
+        font-size: 20px;
+        text-align: center;
+        max-width : 450px;
+        transform: translate(0px, -120px);
+    }
+
+    .audio-container {
+
+        transform: translate(0px, -120px);
+    }
+
         .intro-wish{
 
             .audio{
                 transform: translate(-15px);
-            }
-
-            .dipak{
-                min-height: 150px;
-                max-width: 150px;
             }
         }
     }
